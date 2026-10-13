@@ -1,293 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Tejaswini | My Portfolio</title>
-
-<style>
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  scroll-behavior: smooth;
-}
-
-body {
-  font-family: Arial, sans-serif;
-  background: #0f172a;
-  color: white;
-  line-height: 1.6;
-}
-
-nav {
-  background: #111827;
-  padding: 16px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 12px;
-}
-
-.logo {
-  color: #38bdf8;
-  font-size: 23px;
-  font-weight: bold;
-}
-
-nav a {
-  color: white;
-  text-decoration: none;
-  margin: 5px;
-  font-size: 14px;
-}
-
-nav a:hover {
-  color: #38bdf8;
-}
-
-.hero {
-  text-align: center;
-  padding: 75px 20px;
-  background: linear-gradient(135deg, #1e293b, #312e81);
-}
-
-.hero h1 {
-  font-size: 38px;
-  margin: 12px 0;
-}
-
-.hero h1 span {
-  color: #38bdf8;
-}
-
-.hero p {
-  color: #cbd5e1;
-  margin-bottom: 22px;
-}
-
-.btn {
-  display: inline-block;
-  background: #0284c7;
-  color: white;
-  padding: 11px 22px;
-  border-radius: 7px;
-  text-decoration: none;
-  margin: 5px;
-}
-
-section {
-  padding: 45px 20px;
-  max-width: 1000px;
-  margin: auto;
-}
-
-h2 {
-  color: #38bdf8;
-  text-align: center;
-  margin-bottom: 25px;
-}
-
-.card {
-  background: #1e293b;
-  padding: 22px;
-  margin: 14px 0;
-  border-radius: 12px;
-  border: 1px solid #334155;
-}
-
-.card h3 {
-  color: #7dd3fc;
-  margin-bottom: 8px;
-}
-
-.card p {
-  margin-bottom: 8px;
-}
-
-.card a {
-  color: #7dd3fc;
-}
-
-.skills {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  gap: 12px;
-}
-
-.skills span {
-  background: #1e293b;
-  border: 1px solid #38bdf8;
-  padding: 10px 16px;
-  border-radius: 20px;
-}
-
-.contact {
-  text-align: center;
-}
-
-footer {
-  text-align: center;
-  padding: 20px;
-  background: #111827;
-  color: #cbd5e1;
-}
-
-@media (max-width: 600px) {
-  nav {
-    justify-content: center;
-  }
-
-  nav a {
-    display: inline-block;
-  }
-
-  .hero h1 {
-    font-size: 29px;
-  }
-
-  section {
-    padding: 32px 16px;
-  }
-}
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tejashwini | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-<nav>
-  <div class="logo">MyPortfolio</div>
-  <div>
-    <a href="#home">Home</a>
-    <a href="#about">About</a>
-    <a href="#education">Education</a>
-    <a href="#skills">Skills</a>
-    <a href="#projects">Projects</a>
-    <a href="#certificates">Certificates</a>
-    <a href="#contact">Contact</a>
-  </div>
-</nav>
-
-<header class="hero" id="home">
-  <p>Hello, welcome to my portfolio!</p>
-  <h1>I'm <span>Tejaswini</span></h1>
-  <h3>BCA Student | Aspiring Web Developer</h3>
-  <p>I love learning technology and creating websites.</p>
-  <a class="btn" href="#projects">View My Projects</a>
-  <a class="btn" href="#certificates">My Certificates</a>
-  <a class="btn" href="#contact">Contact Me</a>
+<header>
+    <h2>Teju<span>.</span></h2>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#certificates">Certificates</a>
+        <a href="#contact">Contact</a>
+    </nav>
 </header>
 
-<section id="about">
-  <h2>About Me</h2>
-  <div class="card">
-    <p>
-      I am a BCA student passionate about programming,
-      technology, and web development. I enjoy learning
-      new skills and creating useful projects.
-      My goal is to become a skilled IT professional.
-    </p>
-  </div>
+<section id="home" class="hero">
+    <h1>Hello, I'm <span>Tejaswini</span></h1>
+    <h3>Student | Web Developer</h3>
+    <p>Welcome to my personal portfolio website.</p>
+    <a href="#projects" class="btn">View Projects</a>
 </section>
 
-<section id="education">
-  <h2>Education</h2>
-  <div class="card">
-    <h3>Bachelor of Computer Applications (BCA)</h3>
-    <p>College:swamy Vivekananda Rural First Grade College</p>
-    <p>Status: Currently pursuing</p>
-  </div>
+<section id="about">
+    <h2>About Me</h2>
+    <p>I am a student interested in web development,
+       programming, and learning new technologies.</p>
 </section>
 
 <section id="skills">
-  <h2>My Skills</h2>
-  <div class="skills">
-    <span>HTML</span>
-    <span>CSS</span>
-    <span>JavaScript</span>
-    <span>Python</span>
-    <span>SQLite</span>
-    <span>GitHub</span>
-  </div>
+    <h2>My Skills</h2>
+    <div class="cards">
+        <div>HTML</div>
+        <div>CSS</div>
+        <div>JavaScript</div>
+        <div>Python</div>
+        <div>Git & GitHub</div>
+    </div>
 </section>
 
-<!-- PROJECTS SECTION -->
 <section id="projects">
-  <h2>My Projects</h2>
-
-  <div class="card">
-    <h3>Digital Course Selling Website</h3>
-    <p>
-      A web application that helps students explore
-      online courses and access learning resources.
-      It includes student login and course information.
-    </p>
-    <p><strong>Technologies:</strong> HTML, CSS, JavaScript, Node.js, SQLite</p>
-    <!-- Replace the link with your actual project URL -->
-    <a href="https://github.com/Tejashwini-bca/my-portfolio-"
-       target="_blank" rel="noopener noreferrer">
-      View Project on GitHub
-    </a>
-  </div>
-
-  <div class="card">
-    <h3>Personal Portfolio Website</h3>
-    <p>
-      A responsive personal website displaying my
-      education, skills, projects, and certificates.
-    </p>
-    <p><strong>Technologies:</strong> HTML and CSS</p>
-    <a href="https://www.linkedin.com/in/tejashwini-v-4352b935a?utm_source=share_via&utm_content=profile&utm_medium=member_android"
-       target="_blank" rel="noopener noreferrer">
-      View Source Code
-    </a>
-  </div>
-
-  <!-- Add more project cards by copying a card above -->
+    <h2>My Projects</h2>
+    <div class="cards">
+        <div>
+            <h3>Personal Portfolio</h3>
+            <p>My personal website using HTML and CSS.</p>
+        </div>
+        <div>
+            <h3>Digital Course Selling Site</h3>
+            <p>A website concept for students to explore courses.</p>
+        </div>
+    </div>
 </section>
 
-<!-- CERTIFICATES SECTION -->
 <section id="certificates">
-  <h2>My Certificates</h2>
-
-  <div class="card">
-    <h3>Certificate 1: forage</h3>
-    <p>Issued by: tata limited organization</p>
-    <p>Year: 2025</p>
-    <!-- Replace with your uploaded certificate file path -->
-    <a href="certificates/certificate1.pdf"
-       target="_blank" rel="noopener noreferrer">
-      View Certificate
-    </a>
-  </div>
-
-  <!-- Copy a certificate card to add more certificates -->
+    <h2>My Certificates</h2>
+    <p>Add your certificate details and images here.</p>
+    <img src="certificate.jpg" alt="My Certificate"
+         class="certificate">
 </section>
 
 <section id="contact">
-  <h2>Contact Me</h2>
-  <div class="card contact">
-    <p>
-      Email:
-      <a href="mailto:your-tejteju656@gmail.com">
-        your-email@example.com
-      </a>
-    </p>
-    <p>
-      GitHub:
-      <a href="https://github.com/Tejashwini-bca/my-portfolio-"
-         target="_blank" rel="noopener noreferrer">
-        My GitHub Profile
-      </a>
-    </p>
-  </div>
+    <h2>Contact Me</h2>
+    <p>Email: your-email@example.com</p>
+    <p>Location: Bengaluru, India</p>
+
+    <form id="contactForm">
+        <input type="text" id="name"
+               placeholder="Your Name" required>
+
+        <input type="email" id="email"
+               placeholder="Your Email" required>
+
+        <textarea id="message"
+                  placeholder="Your Message"
+                  required></textarea>
+
+        <button type="submit" class="btn">Send Message</button>
+        <p id="status"></p>
+    </form>
 </section>
 
 <footer>
-  <p>© 2026 Tejaswini | My Portfolio</p>
+    <p>© 2026 Tejaswini | My Portfolio</p>
+    <a href="https://github.com/YOUR-USERNAME">GitHub</a>
 </footer>
 
+<script src="script.js"></script>
 </body>
-                               </html>
+</html>
