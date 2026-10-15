@@ -18,6 +18,26 @@ body {
     background: #101426;
     color: white;
 }
+    
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin: 20px;
+}
+
+.profile img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #6c63ff;
+}
+
+.profile h2 {
+    font-size: 28px;
+}
+    
 
 header {
     display: flex;
@@ -115,13 +135,6 @@ p {
     text-cantent: centre;
 }
 
-.certificate {
-    width: 100%;
-    max-width: 350px;
-    border-radius: 8px;
-    margin-top: 15px;
-}
-
 form {
     max-width: 450px;
     margin: 20px auto;
@@ -193,7 +206,6 @@ footer {
         <a href="#about">About</a>
         <a href="#skills">Skills</a>
         <a href="#projects">Projects</a>
-        <a href="#certificates">Certificates</a>
         <a href="#contact">Contact</a>
     </nav>
 </header>
@@ -206,6 +218,7 @@ footer {
     <p>
         Welcome to my personal portfolio website.
         I love learning new technologies and creating websites.</p>
+    
     <div class="profile-name">
     <h1>Hi, I'm Tejashwini</h1>
     <p>BCA Student | Web Developer</p>
@@ -225,10 +238,6 @@ footer {
 
 <!-- Skills -->
 <section id="skills">
-    
-<!-- SKILLS SECTION -->
-<section id="skills">
-
     <h2>My Technical Skills</h2>
     <p class="skills-intro">
         Technologies and tools I am learning.
@@ -362,8 +371,7 @@ footer {
         <h1>My Projects </h1>
       <p class="tag">MY WORK</p>
       <h2>Featured <span>Projects</span></h2>
-
-      <div class="projects">
+    <div class="projects">
         
           <article class="project-card">
           
@@ -376,8 +384,10 @@ footer {
             target="_blank"
             rel="noopener noreferrer">
             View Source Code ↗
+          
           </a>
-        </article>
+        
+          </article>
         
         <article class="project-card">
           
@@ -411,9 +421,7 @@ footer {
 
     <p>Email: tejteju656@gmail.com</p>
     <p>Location: Bengaluru, India</p>
-    <p>github account:</p>
-    <a href="https://github.com/Tejashwini-bca/portfolio-"
-        </a>
+    <p>github account:https://github.com/Tejashwini-bca</p>
 
     <form id="contactForm">
         <input type="text" id="name"
